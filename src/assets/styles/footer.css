@@ -1,0 +1,446 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+.navbar {
+  background-color: #222f42;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inputfield {
+  display: flex;
+  align-items: center;
+}
+.inputfield button {
+  padding: 0.5vw 0.6vw;
+  background-color: orangered;
+  border: none;
+}
+
+.inputfield p {
+  font-size: 1vw;
+  color: black;
+  border: none;
+  background-color: #e9e9e7;
+  padding: 7px;
+  width: 50%;
+}
+.inputfield select {
+  border: 1px solid black;
+  border: none;
+  background-color: #e9e9e7;
+}
+.inputfield input {
+  padding: 0.48vw;
+}
+.first img {
+  width: 100%;
+}
+.inputfield select {
+  background-color: #e9e9e7;
+  border: none;
+}
+.userinfo {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+  border-left: 1px solid white;
+  padding-left: 2vw;
+}
+.userinfo p {
+  color: white;
+  font-size: 1vw;
+}
+.userinfo select {
+  background-color: inherit;
+  border: none;
+  color: white;
+}
+
+.cartinfo {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+  border-left: 1px solid white;
+  padding-left: 2vw;
+}
+.cartinfo select {
+  background-color: inherit;
+  border: none;
+  color: white;
+}
+.cartinfo p {
+  color: white;
+  font-size: 1vw;
+}
+.navbar .hiddenicons {
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+.heading1 {
+  font-weight: 300;
+  text-align: center;
+  margin-top: -1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.item1 {
+  width: 20%;
+  padding-bottom: 5%;
+}
+img.headphones {
+  width: 100%;
+}
+h4.productname {
+  text-align: center;
+  font-weight: 400;
+}
+h5.description {
+  text-align: center;
+  font-weight: 400;
+}
+.slidingitems {
+  margin-top: 5%;
+}
+h3.cost {
+  text-align: center;
+    font-weight: 600;
+    margin-left: 40%;
+    color: #ff6500;
+}
+section.featuredrecomendations {
+  background-color: #edf2f3;
+  margin-top: -7px;
+  height: 60vh;
+}
+.featuredrecomendations .slidingitems {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.featuredrecomendations .slidingitems img {
+  width: 7vw;
+}
+#ah3 {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 8vw;
+}
+.grid .card .info {
+  display: flex;
+  padding: 1vw;
+  align-items: center;
+  justify-content: space-between;
+  width: 77%;
+}
+.grid .card img {
+  border: 1px solid black;
+  background-color: #ebebeb;
+  border: none;
+}
+.grid .card .info button {
+  padding: 0.5vw;
+  background-color: #59af0f;
+  border: none;
+}
+#winter {
+  padding: 1vw 2vw 1vw 2vw;
+}
+.arrows {
+  position: relative;
+}
+.arrows .post-slider {
+  width: 95%;
+  height: 450px;
+  overflow: hidden;
+  margin-left: 4%;
+}
+.post-slider .item1 {
+  display: inline-block;
+
+  height: 250px;
+  width: 250px;
+}
+.next {
+  position: absolute;
+  top: 31%;
+  right: -8%;
+  color: black;
+  cursor: pointer;
+  font-size: 2vw;
+}
+.previous {
+  position: absolute;
+  top: 31%;
+  left: 0%;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+}
+.arrows .post-slider .item1 .headphones {
+  left: 24%;
+  width: 67%;
+  height: 66%;
+  position: relative;
+}
+.nexts {
+  position: absolute;
+  right: -5%;
+  top: 31%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+div.item1.slick-slide.slick-cloned.slick-active {
+  width: 200px;
+}
+
+/********************************
+  Amazing Deals
+  ********************************/
+
+.posts-slider {
+  position: relative;
+}
+.posts-slider .post-wrapper {
+  width: 90%;
+  height: 450px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.posts-slider .post-wrapper .post {
+  background: #ebebeb;
+  display: inline-block;
+  width: 300px;
+  height: 248px;
+  margin: 0px 10px;
+}
+.posts-slider .post-wrapper .post .slider-image {
+  left: 12%;
+  width: 75%;
+  height: 76%;
+  position: relative;
+  margin-top: 9%;
+}
+
+.posts-slider .next {
+  position: absolute;
+  top: 31%;
+  right: 2%;
+  font-size: 2em;
+  color: black;
+  cursor: pointer;
+}
+.posts-slider .prev {
+  position: absolute;
+  top: 31%;
+  left: 2%;
+  font-size: 2em;
+  color: black;
+  cursor: pointer;
+}
+
+.post-info {
+  display: flex;
+  margin-top: 12%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartbutton {
+  border-radius: 6px;
+  height: 6vh;
+  width: 38%;
+  border: none;
+  color: white;
+
+  background-color: #59af0f;
+}
+
+h4.todaysdetails {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 2vw;
+}
+h2.productnames {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/********************************
+  Designed For you
+  ********************************/
+
+.posts-slider1 {
+  position: relative;
+}
+.posts-slider1 .posts-wrapper {
+  width: 90%;
+  height: 450px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.posts-slider1 .posts-wrapper .post {
+  background: #ebebeb;
+  display: inline-block;
+  width: 300px;
+  height: 248px;
+  margin: 0px 10px;
+}
+.posts-slider1 .posts-wrapper .post .slider-image {
+  left: 12%;
+  width: 75%;
+  height: 76%;
+  position: relative;
+  margin-top: 9%;
+}
+.like {
+  position: relative;
+  top: -62%;
+  left: 4%;
+}
+
+.posts-slider1 .nex {
+  position: absolute;
+  top: 31%;
+  right: 2%;
+  font-size: 2em;
+  color: black;
+  cursor: pointer;
+}
+.posts-slider1 .pre {
+  position: absolute;
+  top: 31%;
+  left: 2%;
+  font-size: 2em;
+  color: black;
+  cursor: pointer;
+}
+.post-info {
+  display: flex;
+  margin-top: 12%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscribe {
+  display: flex;
+  background-color: #222f42;
+  align-items: center;
+  padding: 2%;
+  gap: 5%;
+  margin: 7% 5%;
+}
+.subscribe h1 {
+  color: white;
+  font-size: 2.3vw;
+}
+.subscribe .subscriptionfield {
+  display: flex;
+  gap: 5%;
+}
+.subscribe .subscriptionfield input {
+  padding: 0% 25% 0% 10%;
+  border-radius: 20px;
+  font-size: 1.7vw;
+  border: none;
+}
+#subbutton {
+  border-radius: 3vw;
+  background-color: #ff6500;
+  color: white;
+  border: none;
+  padding: 0% 5%;
+  cursor: pointer;
+  font-size: 1.7vw;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+footer img {
+  padding: 2%;
+}
+footer h5 {
+  margin-top: 2%;
+}
+footer p {
+  padding: 1%;
+  color: #808080;
+  font-size: 1vw;
+}
+hr {
+  color: #808080;
+}
+
+#number {
+  padding-bottom: 1%;
+  color: black;
+}
+@media screen and (max-width: 500px) {
+  .navbar .hiddenicons {
+    display: flex;
+    gap: 19%;
+  }
+  .navbar .inputfield {
+    display: none;
+  }
+  .navbar .userinfo {
+    display: none;
+  }
+  .navbar .cartinfo {
+    display: none;
+  }
+}
+.slick-slider.slick-initialized {
+  width: 80%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+@media screen and (max-width: 500px){
+  .subscribe{
+    display:grid;
+    text-align: center;
+    justify-content: center;
+    gap: 2%;
+  }
+  .subscribe .subscriptionfield{
+   
+
+    width: 100%;
+    display: grid;
+ 
+    gap: 2%;
+    
+    
+   
+  }
+  .subscribe h1{
+    font-size: 1.5vw;
+    font-weight: 0;
+  }
+  .subscribe .subscriptionfield input{
+    width: 100%;
+    font-size: 1.5vw;
+    padding: 0% 13% 0% 9%;
+    
+  }
+  #subbutton{
+    width:40%;
+    
+    padding:0%;
+    height: 2vh;
+    font-size: 1vw;
+    text-align: center;
+
+  }
+
+}
